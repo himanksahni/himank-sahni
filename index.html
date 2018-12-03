@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+
+    <title>AppSoft</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <!--            navbar give nav bar 
+                navbar-expand-md expands the navbar when it reaches md width.
+                navbar-light makes color of the text dark and bg-light is grey background
+                container fluid covers the whole container
+                fixed-top fixes the nav bar to the top.
+                
+            
+            
+            -->
+
+        <header>
+
+            <nav class="navbar navbar-expand-md navbar-light bg-light container-fluid fixed-top">
+
+                <div class="container-fluid">
+
+
+
+                    <!--                   display-4 changes the boldness and font of text-->
+                    <h1 class="display-4">AppSoft</h1>
+
+
+                    <!--                Collapse Button when width is below md-->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+
+
+                    <!--                    used for button collapse-->
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+                        <!--  To align the links on the right side we use ml auto
+                          active highlights the current active link
+                                        
+                    
+                    -->
+                        <ul class="navbar-nav ml-auto display-5">
+                            <li class="nav-item"> <a class="nav-link" href="#">Home</a> </li>
+                            <li class="nav-item"> <a class="nav-link" href="#story">Story</a> </li>
+                            <li class="nav-item"> <a class="nav-link" href="#team">Team</a> </li>
+                            <li class="nav-item"> <a class="nav-link" href="#contact">Contact</a> </li>
+                            <li class="nav-item"> <a class="nav-link" href="#subscribe">Subscribe</a> </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+
+
+
+
+
+
+            <div id="demo" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+
+                <ul class="carousel-indicators ">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="media/first.jpg" alt="app slider">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="media/second.jpg" alt="app slider">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="media/third.jpg" alt="app slider">
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+
+        </header>
+
+
+
+
+        <section class="jumbotron jumbotron-fluid text-center bg-light pad" id="story">
+            <div class="container">
+                <h2 class="display-4 pad">Story</h2>
+                <p>Without our team, we don’t have a business. As a company, we continuously strive to maintain a culture that empowers team members to do the best work of their lives. We shun politics and the typical bulls**t that permeates the corporate world and focus on what is best for our customers and partners.</p>
+
+                <p>With a presence spreading across multiple continents, we are an ever-growing team who strive to #bethehedgehog. Passionate about technology, we work with partners to deliver successful, innovative solutions.</p>
+                <button type="button" class="btn btn-outline-dark">More</button>
+            </div>
+        </section>
+
+
+        <section class="jumbotron bg-dark" id="team">
+            <h2 class="display-4 text-light text-center sectionH pad">Team</h2>
+
+            <div class="card-deck">
+                <div class="card bg-light">
+
+                    <img class="card-img-top" src="media/john.jpg" alt="John">
+
+                    <div class="card-header">John</div>
+                    <div class="card-body text-center">
+                        <p class="card-text">Hi! I am John and I am the <strong>CEO</strong> of AppSoft</p>
+                    </div>
+                </div>
+
+                <div class="card bg-light">
+
+                    <img class="card-img-top" src="media/doe.jpg" alt="Doe">
+
+                    <div class="card-header">Doe</div>
+                    <div class="card-body text-center">
+                        <p class="card-text">Hi! I am Doe and I am the <strong>Senior Developer</strong> at AppSoft</p>
+                    </div>
+                </div>
+
+                <div class="card bg-light">
+
+                    <img class="card-img-top" src="media/Anna.jpg" alt="Anna">
+
+                    <div class="card-header">Anna</div>
+                    <div class="card-body text-center">
+                        <p class="card-text">Hi! I am Anna and I am in <strong>Marketing</strong> at AppSoft</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="jumbotron jumbotron-fluid text-center bg-light" id="contact">
+            <div class="container">
+                <h2 class="display-4 sectionH pad">Contact</h2>
+
+                <p id="addressPara">
+                    <strong>AppSoft</strong>
+
+                    <br>
+
+                    111 Winston Churchill Blvd,
+
+                    <br>
+
+
+                    Toronto, Ontario M5S 1A1 Canada
+
+                </p>
+
+                <ul id="ulContact">
+
+                    <li class="contactList">
+
+                        <i class="fa fa-phone-square fa-flip-horizontal"> </i>
+                        647-245-3012
+                    </li>
+
+                    <li class="contactList">
+                        <i class="fas fa-envelope-open"></i>
+                        appsoft@gmail.com
+
+                    </li>
+                </ul>
+
+
+            </div>
+        </section>
+
+
+        <section class="jumbotron jumbotron-fluid text-light bg-dark" id="subscribe">
+            <div class="container">
+                <h2 class="display-4 sectionH text-center pad">Subscribe</h2>
+
+                <form>
+
+                    <div class="row">
+
+                        <div class="form-group col-md-6">
+
+                            <label for="fname">First Name</label>
+                            <input type="text" class="form-control" id="fname" placeholder="First Name...">
+
+                        </div>
+
+                        <div class="form-group col-md-6">
+
+                            <label for="lname">Last Name</label>
+                            <input type="text" class="form-control" id="lname" placeholder="Last Name...">
+
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="form-group col-md-12">
+
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email...">
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="form-group col-md-12">
+
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                </div>
+                                <input type="text" class="form-control" placeholder="Username">
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="row">
+
+                        <div class="form-group col-md-12">
+
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                                </div>
+                                <input type="password" class="form-control" placeholder="Password">
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary text-center">Subscribe</button>
+
+                </form>
+
+            </div>
+        </section>
+        
+        
+        
+        <footer class="text-center bg-light">
+           
+           &copy; AppSoft Ltd.
+            
+            
+        </footer>
+
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>
